@@ -17,7 +17,7 @@ type NodeMail = {
 }
 
 app.register(cors, {
-    origin: 'https://portfolio-samuelperes.vercel.app',
+    origin: ['http://localhost:3000', 'https://portfolio-samuelperes.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type']
 })
